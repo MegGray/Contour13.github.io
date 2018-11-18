@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparisons</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Energy Consumption Overview</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="comparisons.html">Comparisons <span class="sr-only">(current)</span></a></li>
+            <li><a href="data.html">Data</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="AEP.html">AEP</a></li>
+                <li><a href="COMED.html">COMED</a></li>
+                <li><a href="DAYTON.html">DAYTON</a></li>
+                <li><a href="DEOK.html">DEOK</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <h1 class="mt-5">Comparisons</h1><br>
+
+    </main>
+    
+    <div class="container">
+      <!-- Header row - Row 1 -->
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Comparative Analysis Looking at Energy Consumption Data between American Electric Power, Commonwealth Edison, Dayton Power & Light, and Duke Energy of Ohio and Kentucky.</h4>
+
+        <p>
+          After reviewing the various charts in my analysis, the diagrams below, and the map of coverage by each Power plant, it is believed that the smaller numbers by DEOK and DAYTON are because they cover a much smaller and much less populated area compared to AEP and COMED. It would be helpful to compare population size to the amount of consumption for this analysis.
+        </p>
+        <p>
+          Weather data is also another factor that would be helpful to review when analyzing the dataset as weather patterns definitely have an impact on power consumption for power plants. Based on the diagrams below, it is likely that January through March of 2014 and 2015 were cold months throughout this region, while July through September were hot months, particularly in Illinois.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- row 2 -->
+      <div class="row centered">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-4">
+          <a href="comparisons.html">
+            <img src="Images/2013.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power consumption in MegaWatts for 2013 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+          </a>
+          <p>COMED and AEP shows the highest rate of consumption of close to 8,000MW and 3,800MW respectively in July of 2013. This is likely due to a hot summer and the higher demand for air conditioning and fans. COMED covers the Chicago, Illinois area, and is highly urbanized and experiences hot summers compared to the AEP region which is mostly rural areas in West Virginia and Ohio.</p>
+        </div>
+        <div class="col-lg-4">
+          <a href="comparisons.html">
+            <img src="Images/2014.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2014 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+          </a>
+          <p>The year 2014 indicates a much higher consumption of power for AEP and COMED for the month of January and February indicating possible cold spells that caused an increase in power to heat homes during this time. The summer months shows a higher rate of consumption in COMED compared to all other plants costumers, but the peak rate of consumption was nearly half of the rate in 2013.</p>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+     </div>
+      <div class="row centered">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-4">
+          <a href="comparisons.html">
+            <img src="Images/2015.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2015 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+          </a>
+          <p>January and March of 2015 shows a sharp spike in power consumption for all power companys, indicating that weather may have been a factor. COMED again shows the highest rate of consumpiton in the summer months between June to September.</p>
+        </div>
+        <div class="col-lg-4">
+          <a href="comparisons.html">
+            <img src="Images/2016.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2014 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+          </a>
+          <p>January to February 2016 indicates that the weather was milder overall while the summer months appear to have been warmer than 2014 and 2015 as there are more higher rates of consumption for COMED customers.</p>
+        </div>
+        <div class="col-lg-2">
+
+        </div>
+      </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  
+
+
+</body>
+</html>

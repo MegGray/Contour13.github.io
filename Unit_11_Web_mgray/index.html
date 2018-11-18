@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analysis</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Energy Consumption Overview</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="comparisons.html">Comparisons <span class="sr-only">(current)</span></a></li>
+            <li><a href="data.html">Data</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="analysis1.html">AEP</a></li>
+                <li><a href="analysis2.html">COMED</a></li>
+                <li><a href="analysis3.html">DAYTON</a></li>
+                <li><a href="analysis4.html">DEOK</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <div>
+        <h1 class="mt-5">Energy Consumption Analysis</h1>
+        <p>
+        Website and Anaylisis completed by Megan Gray for UNCC Bootcamp Data Analytics Bootcamp, Unit 11.
+        </p>
+      </div>
+
+      <!-- Header row - Row 1 -->
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Energy Consumption Analysis between 4 Power Plants in the Ohio River Valley, and Northeastern Illinois.</h4>
+        </div>
+      </div>
+
+    
+    <!-- First paragraph -->
+      <div class="row">  
+        <div class="col-lg-12">
+          <p>
+            The analysis reflected in this website was completed on a <a href="https://www.kaggle.com/robikscube/hourly-energy-consumption/version/2/home">Kaggle.com</a> dataset, which was compiled by PJM Interconnection LLC (PJM), and submitted to Kaggle.com by Rob Mulla. The dataset itself has hourly consumption rates of power recorded in MegaWatts for 12 power plants that are located throughout the Ohio River Valley, Pennsylvania, and Northeastern Illinois. For this analysis, the first 4 power plants were chosen and they are American Electric Power (AEP), Commonwealth Edison (COMED), Dayton Power and Light Company (DAYTON), Duke Energy of Ohio and Kentucky (DEOK).
+          </p>
+          <div class="row">
+              <div class="col-lg-12">
+                <a href="Images/pjm-image.jpg">
+                  <img src="Images/pjm-image.jpg" class="img-responsive" alt="Geographical map showing the United States area encompassing the Ohio River Valley from Pennsylvania to Illinois. Map has color coded areas indicating the areas serviced by the 12 power plants listed in the dataset. Image was provided with dataset at Kaggle.com: https://www.theenergytimes.com/sites/theenergytimes.com/files/styles/article_featured_retina/public/pjm-image.jpg.crop_display.jpg?itok=XLQYO4j-">
+                </a>
+                <br>
+              </div>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h4>
+              Visualizations
+            </h4>
+            
+            <div class="col-md-3">
+              <a href="Images/2013.html">
+                <img src="Images/2013.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2013 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="Images/2014.html">
+                <img src="Images/2014.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2014 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="Images/2015.html">
+                <img src="Images/2015.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2015 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="Images/2016.html">
+                <img src="Images/2016.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2016 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+  </main>
+
+  
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
