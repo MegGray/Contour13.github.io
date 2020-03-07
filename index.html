@@ -1,86 +1,142 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+  <meta charset="UTF-8">
+  <title>Megan Gray</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <title>Megan Gray</title>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Resume</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Megan Gray</h1>
-            <p class="lead">This is the beginning of Megan Gray's portfolio website.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Portfolio</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
+</head>
+<body>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Megan Gray</a>
         </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="comparisons.html">Work <span class="sr-only">(current)</span></a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Work <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="soldoncharlotte.html">Sold On Charlotte</a></li>
+                <li><a href="grayscaleservices.html">Gray Scale Services</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Study <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://github.com/MegGray/SQL_Exercise_1/blob/master/Homework_Excercise_1.sql">SQL Assignment 1</a></li>
+                <li><a href="https://github.com/MegGray/SQL_Exercise_2/blob/master/Class_Exercise_1.sql">SQL Assignment 2</a></li>
+                <li><a href="https://github.com/MegGray/SQL_Exercise_3/blob/master/Class_Exercise_2.sql">SQL Assignment 3</a></li>
+                <li><a href="https://github.com/MegGray/Python_HeroesofPymoli/blob/master/HeroesOfPymoli_working.ipynb">Python Assignment 1</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Hobbies <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="homeimprovement.html">Home Improvement</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <div>
+        <h2 class="mt-5">Background</h2>
       </div>
 
-    </div>
+      <!-- Header row - Row 1 -->
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Education</h4>
+        </div>
+      </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+      <!-- First paragraph -->
+      <div class="row">  
+        <div class="col-lg-12">
+          <h5>
+            University of North Carolina at Asheville
+          </h5>
+          <p>
+            Bachelors of Science, Environmental Studies </br>
+              Focus: Hydrology and Ecology.</br>
+              • Completed internship for a Wind Assessment Study for UNCA. Assisted scientist with retrieving the data
+              from the wind assessment tower on a weekly basis, and assisted scientist with anything they needed for
+              their analysis.
+          </p>
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="row">  
+        <div class="col-lg-12">
+          <h5>
+            University of North Carolina at Charlotte
+          </h5>
+          <p>
+            Masters of Science, Earth Science </br>
+            Focus: Hydrology and Geographic Information System (GIS).</br>
+            • Completed 2-year assistantship for UNC Charlotte to study hydrological impact of permeable pavement
+            on stormwater runoff for a site in Wilmore Walk in Charlotte, NC. This study was completed for City of
+            Charlotte Stormwater Services.</br>
+            • Conducted extensive GIS study for master’s thesis, modeling effects of permeable pavement on
+            stormwater runoff within Wilmore, which is located in the Irwin Creek Watershed. Results of analysis
+            were presented to City of Charlotte Stormwater Services.
+          </p>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h4>
+              Visualizations
+            </h4>
+            
+            <div class="col-md-4">
+              <a href="Images/2013.html">
+                <img src="Images/2013.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2013 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="Images/2014.html">
+                <img src="Images/2014.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2014 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="Images/2015.html">
+                <img src="Images/2015.png" class="img-responsive" alt="Line chart showing 4 lines indicating variations in power output in MegaWatts for 2015 between 4 power companies; AEP, COMED, DAYTON, DEOK">
+              </a>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+  </main>
+
+  
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>
