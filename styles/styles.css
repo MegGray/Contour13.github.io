@@ -13,6 +13,15 @@
     text-align: center;
   }
 
+.picture {
+  padding:10px;
+}
+
+.thumbnails {
+  width:33%;
+  padding:2px;
+}
+
 /* container used to position main page buttons */
 /* .container {
   position: relative;
